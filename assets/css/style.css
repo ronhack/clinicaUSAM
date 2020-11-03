@@ -1,0 +1,49 @@
+/* Webfonts */
+@import url('../icon/webfonts/Montserrat-Light.ttf');
+@import url('../icon/webfonts/Montserrat-Regular.ttf');
+@import url('../icon/webfonts/Montserrat-Bold.ttf');
+/* Estilos generales */
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+	background-color: #fff;
+	color: black;
+	display: flex;
+	min-height: 100vh;
+	flex-wrap: wrap;
+}
+
+/* Navbar */
+nav {
+	align-self: flex-start;
+	width: 100%;
+}
+
+body nav a {
+	color: white;
+	margin: 0px 5px;
+}
+body nav .nav-item a:hover {
+	color: white;
+	background-color: #c2185b;
+	border-radius: 25px;
+}
+.navbar button.navbar-toggler {
+	font-size: 2em;
+	color: #ffc107;
+}
+
+hr {
+	border-color: #880e4f;
+}
+
+/* Footer */
+footer{
+	align-self: flex-end;
+	width: 100%;
+	background-color: #880e4f;
+}

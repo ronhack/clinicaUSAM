@@ -3,7 +3,7 @@
     <div class="row justify-content-center">
       <div class="col-md-6 mb-4">
         <a class="img-fluid" href="<?php echo base_url().'login';?>">
-          <img src="<?php echo base_url().'assets/img/svg/hospital.svg';?>" height="150px" alt="Ride SV logo blanco">
+          <img src="<?php echo base_url().'assets/img/svg/hospital.svg';?>" height="150px" alt="Logo de la clinica">
         </a>
       </div>
     </div>
